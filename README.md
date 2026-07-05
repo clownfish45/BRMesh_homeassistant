@@ -3,12 +3,13 @@ Here in Canada, it seems like it's impossible to get outdoor floodlights that ar
 
 This solves my problem and integrates the lights into HomeAssistant. This is firmware for an ESP32 that will allow control of "BRMesh" lights.
 
+UPDATE: ESP32 firmware versions past 2.0.14 are now supported, therefore the newer ESP32 boards are now supported
+
 ## Requirements
 ### Software Requirements
 - Home Assistant MQTT Broker Add-on installed in Home Assistant (https://www.youtube.com/watch?v=dqTn-Gk4Qeo&ab_channel=EverythingSmartHome)
 - Home Assistant MQTT Integration added in Home Assistant (https://www.home-assistant.io/integrations/mqtt/)
 - Arduino IDE (install library "home-assistant-integration" (Dawid Chyrzynski) in the Library Manager)
-- ESP32 Board Core v2.0.14 ** (see "Known Issues" below)
 - BRMesh app installed on Android phone
 - Android `adb` installed on computer (https://www.xda-developers.com/install-adb-windows-macos-linux)
 
