@@ -371,7 +371,7 @@ void send(uint8_t* data, uint8_t dataLength){
   BLEAdvertisementData oAdvertisementData = BLEAdvertisementData();
   BLEAdvertisementData oScanResponseData = BLEAdvertisementData();
   oAdvertisementData.setFlags(0x04); // BR_EDR_NOT_SUPPORTED 0x04
-  std::string strServiceData = "";
+  String strServiceData = "";
   strServiceData += (char)(dataLength-4);     // Len
   for (int i=4;i<dataLength;i++)
   {
